@@ -1,0 +1,10 @@
+package drake;
+struct lcmt_cost_params
+{
+	// The timestamp in microseconds.
+	int64_t  utime;
+ 
+	// The data
+	float q_ee1;    float q_ee2;    float qf_ee1;   float qf_ee2; 
+	float q_xdee;   float qf_xdee;  float q_xee;    float qf_xee;   float r_ee;
+}
